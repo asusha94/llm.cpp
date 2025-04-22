@@ -1,0 +1,62 @@
+---
+BasedOnStyle: LLVM
+AccessModifierOffset: -4
+AlignConsecutiveAssignments:
+  Enabled: true
+AlignConsecutiveDeclarations:
+  PadOperators: true
+AlignEscapedNewlines: Left
+AlignOperands: true
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: true
+AllowShortCaseExpressionOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLambdasOnASingleLine: Inline
+BinPackArguments: false
+BinPackParameters: false
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: false
+  AfterControlStatement: Never
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterObjCDeclaration: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: false
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+BreakBeforeBraces: Custom
+BreakTemplateDeclarations: Yes
+ColumnLimit: 100
+Cpp11BracedListStyle: false
+IndentPPDirectives: AfterHash
+IndentWidth: 4
+IndentWrappedFunctionNames: true
+NamespaceIndentation: All
+PointerAlignment: Left
+SortIncludes: true
+SortUsingDeclarations: true
+SpaceAfterCStyleCast: true
+SpacesBeforeTrailingComments: 3
+SpacesInAngles: false
+SpacesInContainerLiterals: false
+Standard: c++20
+Language: Cpp
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: true
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+KeepEmptyLinesAtTheStartOfBlocks: false
+SpaceInEmptyParentheses: false
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+KeepEmptyLinesAtEOF: false
